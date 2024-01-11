@@ -1,7 +1,7 @@
 {
-  "name": "is-json-request",
-  "version": "1.0.1",
-  "description": "Check if the current request is json, express js, next js, any node js server side code.",
+  "name": "firestore-query-operators",
+  "version": "1.0.0",
+  "description": "Firestore query operators helper",
   "main": "index.js",
   "type": "module",
   "exports": {
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/shadiabuhilal/is-json-request.git"
+    "url": "git+ssh://git@github.com/shadiabuhilal/firestore-query-operators.git"
   },
   "keywords": [
-    "json",
-    "request",
-    "is",
-    "json",
-    "check",
-    "detect",
+    "firebase",
+    "firestor",
+    "query",
+    "operations",
+    "firestore query operations",
+    "react",
     "express",
     "express js",
     "js",
@@ -43,9 +43,9 @@
   "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shadiabuhilal/is-json-request/issues"
+    "url": "https://github.com/shadiabuhilal/firestore-query-operators/issues"
   },
-  "homepage": "https://github.com/shadiabuhilal/is-json-request#readme",
+  "homepage": "https://github.com/shadiabuhilal/firestore-query-operators#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",

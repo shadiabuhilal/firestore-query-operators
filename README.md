@@ -1,78 +1,43 @@
-# is-json-request
-![Build Status](https://github.com/shadiabuhilal/is-json-request/actions/workflows/push-workflows.yml/badge.svg)
+# firestore-query-operators
+![Build Status](https://github.com/shadiabuhilal/firestore-query-operators/actions/workflows/push-workflows.yml/badge.svg)
 
-Check if the current request is json, express js, next js, any node js server side code. (supports module and commonJS).
+Firestore query operators helper
 
-https://shadiabuhilal.github.io/is-json-request/
+https://shadiabuhilal.github.io/firestore-query-operators/
 
 -----------
 
 ## Usage
 
-### import is-json-request
+### import firestore-query-operators
 ```js
-import { isJsonReq, isGetReq, isPostReq, isPutReq, isDeleteReq } from 'is-json-request';
+import { QueryOperators } from 'firestore-query-operators';
 ```
 
 Or
 
-### require is-json-request
+### require firestore-query-operators
 ```js
-const { isJsonReq, isGetReq, isPostReq, isPutReq, isDeleteReq } = require('is-json-request');
+const { QueryOperators } = require('firestore-query-operators');
 ```
 
-### isJsonReq
-This function checks if the current request is a json request or not.
+---
 
-Example:
+### Available Query Operations
+Support query operations that used in firestore.
 
-```js
-if (isJsonReq(req)) {
-  // Is a JSON request
-}
-```
+| Variable | Oprator | Description |
+|-----|---------|--------------|
+| QueryOperators.lessThan | < | less than |
+| QueryOperators.lessThanOrEqualTo | <= | less than or equal to |
+| QueryOperators.equalTo | == | equal to |
+| QueryOperators.greaterThan | > | greater than |
+| QueryOperators.greaterThanOrEqualTo | >= | greater than or equal to |
+| QueryOperators.notEqualTo | != | not equal to |
+| QueryOperators.arrayContains | array-contains | array contains |
+| QueryOperators.arrayContainsAny | array-contains-any | array contains any |
+| QueryOperators.in | in | in |
+| QueryOperators.notIn | not-in | not-in |
 
-### isGetReq
-This function checks if the current request is a http GET method request or not.
+[Firestore query operations doc](https://firebase.google.com/docs/firestore/query-data/queries).
 
-Example:
-
-```js
-if (isGetReq(req)) {
-  // Is a HTTP GET method request
-}
-```
-
-### isPostReq
-This function checks if the current request is a http POST method request or not.
-
-Example:
-
-```js
-if (isPostReq(req)) {
-  // Is a HTTP POST method request
-}
-```
-
-
-### isPutReq
-This function checks if the current request is a http PUT method request or not.
-
-Example:
-
-```js
-if (isPutReq(req)) {
-  // Is a HTTP PUT method request
-}
-```
-
-### isDeleteReq
-This function checks if the current request is a http DELETE method request or not.
-
-Example:
-
-```js
-if (isDeleteReq(req)) {
-  // Is a HTTP DELETE method request
-}
-```
