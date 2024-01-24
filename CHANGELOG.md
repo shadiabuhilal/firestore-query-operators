@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/shadiabuhilal/firestore-query-operators/compare/v1.0.0...v1.0.1) (2024-01-24)
+
+
+### Bug Fixes
+
+* adding typescript type for this package ([#1](https://github.com/shadiabuhilal/firestore-query-operators/issues/1)) ([b0bc767](https://github.com/shadiabuhilal/firestore-query-operators/commit/b0bc767681f2c36f5d641e1895aa268ffcc6144b))
+
 # 1.0.0 (2024-01-11)
 
 ### Features
