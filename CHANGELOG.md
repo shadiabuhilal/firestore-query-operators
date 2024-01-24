@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/shadiabuhilal/firestore-query-operators/compare/v1.0.1...v1.0.2) (2024-01-24)
+
+
+### Bug Fixes
+
+* fix exports types in package.json ([#2](https://github.com/shadiabuhilal/firestore-query-operators/issues/2)) ([1fa10f5](https://github.com/shadiabuhilal/firestore-query-operators/commit/1fa10f5c49f0625cb96f458dc0bc4f93967bf614))
+
 ## [1.0.1](https://github.com/shadiabuhilal/firestore-query-operators/compare/v1.0.0...v1.0.1) (2024-01-24)
 
 

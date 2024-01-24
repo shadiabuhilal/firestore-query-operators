@@ -1,15 +1,15 @@
 {
   "name": "firestore-query-operators",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Firestore query operators helper",
   "main": "index.js",
   "types": "types/index.d.ts",
   "type": "module",
   "exports": {
     ".": {
-        "import": "./index.js",
-        "require": "./index.cjs",
-        "types": "./types/index.d.ts"
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./types/index.d.ts"
     }
   },
   "scripts": {
